@@ -1,0 +1,38 @@
+{
+  "name": "anil/khalti",
+  "description": "Laravel API CRUD with extended controller",
+  "keywords": [
+    "anil",
+    "laravel",
+    "api",
+    "crud",
+    "fast",
+    "api-crud",
+    "api-crud-controller",
+    "fast-api-crud",
+    "khalti payment gateway",
+    "khalti payment gateway integration"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Anil\\Khalti\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "anil kumar thakur",
+      "email": "anilkumarthakur60@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/http": "10.*|9.*|8.*|7.*|6.*|5.*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
