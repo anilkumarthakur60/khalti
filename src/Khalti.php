@@ -4,9 +4,11 @@ namespace Anil\Khalti;
 
 class Khalti
 {
-    public function __construct()
+
+    public function addUser()
     {
-        echo "Hello World";
+        return 'add user';
+
     }
 
 }

@@ -1,6 +1,6 @@
 {
   "name": "anil/khalti",
-  "description": "Laravel API CRUD with extended controller",
+  "description": "A Package for khalti payment gateway integration in laravel",
   "keywords": [
     "anil",
     "laravel",
@@ -39,7 +39,10 @@
     "laravel": {
       "providers": [
         "Anil\\Khalti\\Providers\\KhaltiServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "Khalti": "Anil\\Khalti\\Facades\\Khalti"
+      }
     }
   },
   "minimum-stability": "stable",
