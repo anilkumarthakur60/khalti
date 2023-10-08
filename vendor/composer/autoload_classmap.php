@@ -6,6 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Anil\\Khalti\\Exceptions\\KhaltiException' => $baseDir . '/src/Exceptions/KhaltiException.php',
+    'Anil\\Khalti\\Facades\\Khalti' => $baseDir . '/src/Facades/Khalti.php',
+    'Anil\\Khalti\\Khalti' => $baseDir . '/src/Khalti.php',
+    'Anil\\Khalti\\Providers\\KhaltiServiceProvider' => $baseDir . '/src/Providers/KhaltiServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Carbon\\AbstractTranslator' => $vendorDir . '/nesbot/carbon/src/Carbon/AbstractTranslator.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',

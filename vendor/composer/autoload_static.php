@@ -179,9 +179,9 @@ class ComposerStaticInitc4565beab40667f9a9c297a7636f6f4e
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Session\\' => 
@@ -223,6 +223,10 @@ class ComposerStaticInitc4565beab40667f9a9c297a7636f6f4e
     );
 
     public static $classMap = array (
+        'Anil\\Khalti\\Exceptions\\KhaltiException' => __DIR__ . '/../..' . '/src/Exceptions/KhaltiException.php',
+        'Anil\\Khalti\\Facades\\Khalti' => __DIR__ . '/../..' . '/src/Facades/Khalti.php',
+        'Anil\\Khalti\\Khalti' => __DIR__ . '/../..' . '/src/Khalti.php',
+        'Anil\\Khalti\\Providers\\KhaltiServiceProvider' => __DIR__ . '/../..' . '/src/Providers/KhaltiServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Carbon\\AbstractTranslator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/AbstractTranslator.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',

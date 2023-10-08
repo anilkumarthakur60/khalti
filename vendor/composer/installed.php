@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'anil/khalti',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '419408fffd47e18b790a2f0d8c46aef98649d16d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'anil/khalti' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '419408fffd47e18b790a2f0d8c46aef98649d16d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -27,11 +27,20 @@
     }
   ],
   "require": {
-    "illuminate/http": "10.*|9.*|8.*|7.*|6.*|5.*"
+    "illuminate/http": "10.*|9.*|8.*|7.*|6.*|5.*",
+    "illuminate/support": "10.*|9.*|8.*|7.*|6.*|5.*"
   },
   "config": {
     "optimize-autoloader": true,
     "sort-packages": true
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Anil\\Khalti\\Providers\\KhaltiServiceProvider"
+      ]
+    }
   },
   "minimum-stability": "stable",
   "prefer-stable": true
