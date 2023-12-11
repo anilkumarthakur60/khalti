@@ -42,7 +42,7 @@ class FilesystemAdapter implements CloudFilesystemContract
 {
     use Conditionable;
     use Macroable {
-        __call as macroCall;
+        Macroable::__call as macroCall;
     }
 
     /**

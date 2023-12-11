@@ -5,7 +5,7 @@ namespace Anil\Khalti\Contract;
 interface KhaltiInterface
 {
 
-    public function initiateTransaction(array $data):array;
+    public function initiateTransaction(InitiateTransactionInterface $data):array;
 
     public function verifyTransaction(string $token, int|float $amount):array;
 
