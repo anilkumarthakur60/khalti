@@ -1,10 +1,10 @@
 <?php
 
 namespace Anil\Khalti\Facades;
+
 use Anil\Khalti\Contract\InitiateTransactionInterface;
 use Anil\Khalti\Contract\KhaltiInterface;
 use Illuminate\Support\Facades\Facade;
-
 
 /**
  * @method static KhaltiInterface initiateTransaction(InitiateTransactionInterface $data)
@@ -15,10 +15,8 @@ use Illuminate\Support\Facades\Facade;
  */
 class Khalti extends Facade
 {
-
-    protected static function getFacadeAccessor():string
+    protected static function getFacadeAccessor(): string
     {
         return 'khalti';
     }
-
 }

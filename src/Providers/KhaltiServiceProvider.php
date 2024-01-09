@@ -7,23 +7,16 @@ use Illuminate\Support\ServiceProvider;
 
 class KhaltiServiceProvider extends ServiceProvider
 {
-    public function register():void
+    public function register(): void
     {
-
-
-
-
-        $this->mergeConfigFrom(__DIR__ . '/../config/khalti.php', 'khalti');
-
+        $this->mergeConfigFrom(__DIR__.'/../config/khalti.php', 'khalti');
     }
 
     public function boot()
     {
-
-
         $this->publishes([
             __DIR__.'/../config/khalti.php' => config_path('khalti.php'),
-        ],'khalti');
+        ], 'khalti');
 
         $this->app->bind('khalti', function () {
             return new Khalti();
@@ -31,6 +24,5 @@ class KhaltiServiceProvider extends ServiceProvider
         $this->app->singleton(Khalti::class, function () {
             return new Khalti();
         });
-
     }
 }
