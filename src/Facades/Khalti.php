@@ -5,7 +5,6 @@ namespace Anil\Khalti\Facades;
 use Anil\Khalti\Contract\InitiateTransactionInterface;
 use Anil\Khalti\Contract\KhaltiInterface;
 use Illuminate\Support\Facades\Facade;
-use Illuminate\Support\Facades\Http;
 
 /**
  * @method static KhaltiInterface initiateTransaction(InitiateTransactionInterface $data)
