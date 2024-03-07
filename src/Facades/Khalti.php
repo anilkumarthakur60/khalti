@@ -3,6 +3,7 @@
 namespace Anil\Khalti\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Http;
 
 class Khalti extends Facade
 {
