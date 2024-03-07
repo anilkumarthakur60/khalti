@@ -8,10 +8,10 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class KhaltiException extends HttpException
 {
     /**
-     * @param $message
+     * @param                $message
      * @param Exception|null $exception
-     * @param array $headers
-     * @param int $code
+     * @param array          $headers
+     * @param int            $code
      */
     public function __construct($message = null, Exception $exception = null, array $headers = [], $code = 0)
     {
